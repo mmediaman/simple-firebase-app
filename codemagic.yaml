@@ -10,8 +10,6 @@ workflows:
       vars:
         PACKAGE_NAME: "com.testapp.simplefirebaseapp"
         # Define other environment variables
-      android_signing:
-        - keystore_reference
       java: 17
     triggering:
       events:
